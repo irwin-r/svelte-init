@@ -1,0 +1,28 @@
+{
+  "name": "svelte-init",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server --content-base public"
+  },
+  "author": "Colossal Digital Pty Ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.1.4",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "jest-svelte": "^0.0.1",
+    "svelte": "^3.6.7",
+    "svelte-loader": "^2.13.4",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
